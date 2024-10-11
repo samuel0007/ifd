@@ -1,5 +1,10 @@
 # Build
-build/*
+build
+cmake-build-debug
+cmake-build-release
+
+# IDEs
+.idea
 
 # Prerequisites
 *.d
