@@ -26,9 +26,10 @@ int main(int argc, char *argv[]) {
     Global_Options options = parse_args(argc, argv);
     std::shared_ptr<mesh::Mesh> mesh_p = mesh::load_mesh(options.mesh_folder_path);
     mesh_p->points.print();
-    mesh_p->faces.print();
-    mesh_p->cells.print();
-    mesh_p->boundary.print();
+    mesh_p->plot();
+    // mesh_p->faces.print();
+    // mesh_p->cells.print();
+    // mesh_p->boundary.print();
 
     return 0;
 }
