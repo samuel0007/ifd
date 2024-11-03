@@ -1,7 +1,8 @@
 {
     "cmake.debugConfig": {
         "args": [
-            "/home/samrusso/cambridge/ifd/assignments/ifd/data/meshes/mesh1/"
+            "/home/samrusso/cambridge/ifd/assignments/ifd/data/meshes/mesh1/",
+            "/home/samrusso/cambridge/ifd/assignments/ifd/output/"
         ]
     },
     "files.associations": {
@@ -81,6 +82,8 @@
         "semaphore": "cpp",
         "shared_mutex": "cpp",
         "stop_token": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "core": "cpp",
+        "dense": "cpp"
     }
 }
